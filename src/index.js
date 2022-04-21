@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header to="This is a sentence."/>
-    <ButtonWithClass />
+    {/* <ButtonWithClass /> */}
     <ButtonWithHooks />
   </React.StrictMode>
 );
